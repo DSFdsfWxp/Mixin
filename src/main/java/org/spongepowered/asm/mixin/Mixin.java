@@ -48,7 +48,7 @@ import java.lang.annotation.Target;
  * </dl>
  */
 @Target(ElementType.TYPE)
-@Retention(RetentionPolicy.RUNTIME)
+@Retention(RetentionPolicy.CLASS)
 public @interface Mixin {
 
     /**

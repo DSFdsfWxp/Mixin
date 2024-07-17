@@ -61,6 +61,7 @@ Thumbs.db
 .gradle
 .nb-gradle
 .idea
+.vscode
 .project
 .settings
 eclipse
