@@ -54,7 +54,7 @@ public final class ASM {
     /**
      * The detected ASM API Version
      */
-    public static final int API_VERSION = ASM.detectVersion();
+    public static int API_VERSION = ASM.detectVersion();
 
     private ASM() {
     }
@@ -158,7 +158,7 @@ public final class ASM {
     }
 
     private static int detectVersion() {
-        int apiVersion = Opcodes.ASM4;
+        int apiVersion = 0x90000;
 
         VersionNumber packageVersion = ASM.getPackageVersion(Opcodes.class);
 
