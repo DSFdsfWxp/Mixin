@@ -268,7 +268,6 @@ artifacts {
         archives stagingJar
     }
     archives sourceJar
-    archives jar
 }
 
 ext.mavenPom = {
@@ -311,7 +310,6 @@ publishing {
                 artifact stagingJar
             }
             artifact sourceJar
-            artifact jar
         }
     }
     
